@@ -72,23 +72,31 @@ body {
 .nav-link:hover,
 .nav-link.activ {
     background-color: #b0b3b6;
+    border-radius: 12px;
 }
 
 .admin-btn {
-    width: 78%;
-    margin-left: 12%;
-    margin-bottom: 3%;
-    font-size: 20px;
-    padding: 0.5rem;
-    background-color: #0676aa;
-    color: white;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    margin-left: 16%;
+    padding: 9px 42px;
+    background-color: #a0a0a0;
+    color: black;
     border: none;
-    border-radius: 1rem;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
     cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.admin-btn svg {
+    margin-right: 10px;
 }
 
 .admin-btn:hover {
-    background-color: #02557c;
+    background-color: #838383;
 }
 
 .logout {
@@ -97,6 +105,7 @@ body {
     color: rgb(2, 86, 165);
     margin-bottom: 5%;
     font-size: 18px;
+    margin-top: 3%;
 }
 
 .text-gray-700 {
